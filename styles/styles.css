@@ -1,6 +1,23 @@
-.para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+
+/* *{
+    border:4px solid red
+}
+body {
+    text-align: center;
+} */
+
+/* Header styles */
+nav{
+    background-color: steelblue;
+    padding: 20px;
+    text-align: center;
+}
+a{
+    margin: 40px;
+    font-size: 2em;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
 }
 
 a {
@@ -9,10 +26,38 @@ a {
     color: white;
     padding: 10px;
     text-decoration: none;
+
 }
 
-#active {
+#active , a:hover {
     background-color: white;
     color: steelblue;
 
+}
+/* Main Styles */
+h1{
+    color: steelblue;
+    text-align: center;
+}
+img{
+    width: 80%;
+    border: 15px solid steelblue;
+    margin: 0 auto; 
+    display: block
+}
+.para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 10px; 
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+/* footer */
+footer p {
+    font-size: 1.25em;
+    padding: 20px;
+}
+footer { 
+    background-color: steelblue;
 }
