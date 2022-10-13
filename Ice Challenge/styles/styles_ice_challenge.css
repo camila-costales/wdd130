@@ -1,0 +1,16 @@
+footer{
+    background-color: grey;
+    padding: 95px;
+}
+.class1{
+    width: 20%;
+    border: 20px solid rgb(60, 59, 59);
+    margin: 0 auto; 
+    border-radius: 50%;
+}
+img {
+    width: 100%
+}
+div {
+    margin: 0 auto;
+}
