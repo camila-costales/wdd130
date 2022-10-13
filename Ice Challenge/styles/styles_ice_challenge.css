@@ -7,10 +7,11 @@ footer{
     border: 20px solid rgb(60, 59, 59);
     margin: 0 auto; 
     border-radius: 50%;
+    margin: 60px
 }
 img {
     width: 100%
 }
 div {
-    margin: 0 auto;
+    text-align: center;
 }
