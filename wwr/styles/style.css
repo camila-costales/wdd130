@@ -130,7 +130,6 @@ footer p a:hover {
     text-decoration: underline;
     font-family: var(--paragraph-font);
     font-size: 1.5em;
-    
 }    
 footer a{
     background-color: #253659;
@@ -173,3 +172,4 @@ h4 {
 .social_img{
     padding-top: 15px;
 }
+/* comments
