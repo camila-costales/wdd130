@@ -1,30 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter+Tight&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    
+    --heading-font: "Archivo Black";
+    --paragraph-font: Inter Tight, Helvetica, sans-serif;
+}
+body {
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 nav a {
     text-align: center; 
     color: #253659;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    padding: 35px;
+}
+.icon{
+    padding: 15px 30px;
 }
 #hero-msg h1{
-    text-align: center;  
+    text-align: center; 
+    font-size: 44px
 }
 #hero-msg h4{
     text-align: center;  
+    font-family: var(--paragraph-font);
+    font-size: 30px
 }
 .button-box{
     text-align: center;  
+    font-family: var(--paragraph-font);
+    font-size: 18px
 }
 main section{
     text-align: center;  
+    font-family: var(--paragraph-font);
+    font-size: 22px;
 }
 #background{
     height: 725px;
 }
 body {
     background-color: white; 
+    font-family: var(--paragraph-font);
+    font-size: 22px
 }
 header {
     background-color: #8cbdb9;
@@ -32,68 +56,120 @@ header {
 nav a:hover {
     background-color: #253659;
     color:white;
+    font-family: var(--paragraph-font);
+    font-size: 22px
+}
+.card-img{
+    border: solid #253659 10px
+}
+main section img {
+    box-sizing: border-box;
 }
 .book {
     background-color: #8cbdb9; 
     color:#253659;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color:#e09e50;
     color:#253659;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .book:hover {
     background-color: #253659;
     color: white;
+    font-size: 18px
 }
 .join:hover {
     background-color: #253659;
     color: white;
+    font-size: 18px
 }
 #background {
     background-color: #e09e50;
 }
+.msg{
+    padding: 35px;
+}
 .msg h2{
     background-color: #253659;
-    color: white
+    color: white;
+    font-size: 30px
 }
 .msg p{
     background-color: #253659;
-    color: white
+    color: white;
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    padding: 15px;
 }
 footer {
     background-color: #253659;
     color: white;
+    font-family: var(--paragraph-font);
+    font-size: 1em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
+    font-family: var(--paragraph-font);
 }    
 footer p a:hover {
     text-decoration: underline;
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+    
 }    
 footer a{
     background-color: #253659;
     color: white;
     text-decoration: none; 
+    font-size: 1em;
 }
 footer a:hover {background-color: #253659;
-    color: white
+    color: white;
 }
 .home-tittle {
-    color: #e09e50
+    color: #e09e50;
+    margin-top: 10px;
 }
 h4 {
     color:#253659
 }
 h2 {
     color:#e09e50;
+    font-size: 30px;
+    margin: 0;
 }
 .logo {
     width: 80px;
+    border-radius: 50%
 }
 #hero-img{
     width: 100%;
 }
-
-
+h1, h2, h3, h5, h6 {
+    font-family: var(--heading-font)
+}
+h4 {
+    font-size: 30px;
+    font-family: var(--paragraph-font)
+}
+#logo_link {
+    padding-top: 5px;
+}
+.social_img{
+    padding-top: 15px;
+}
