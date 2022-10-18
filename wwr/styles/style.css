@@ -101,14 +101,13 @@ main section img {
 }
 .msg{
     padding: 35px;
+    background-color: #253659;
 }
 .msg h2{
-    background-color: #253659;
     color: white;
     font-size: 30px
 }
 .msg p{
-    background-color: #253659;
     color: white;
     font-family: var(--paragraph-font);
     font-size: 1.2em;
