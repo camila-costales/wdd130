@@ -189,7 +189,9 @@ h2 {
 }
 .logo {
     width: 80px;
-    border-radius: 50%
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 #hero-img{
     width: 100%;
