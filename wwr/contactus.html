@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,6 +77,7 @@ button {
     right: 0;
     padding: .5em;
     /* make this element invisible until we are ready for it */    
+    display: none;
 }
 .moveDown {
     margin-top: 3em;
@@ -83,9 +85,21 @@ button {
 </style>
 </head>
 
-
 <body>
-    <div id="feedback">
+    <header>
+        <a id="1" href="wwr_index.html">
+            <img class="logo" src="images/1.jpg" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a target="_blank" href="wwr_index.html">Home</a>
+            <a target="_blank" href="page-2.html">Page 2</a>
+            <a target="_blank" href="site-plan-rafting.html">Site Plan</a>
+            <a target="_blank" href="contactus.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main> 
+    <div id="feedback"> </div>
     <form action="/my-handling-form-page" method="post">
         <ul>
             <li>
@@ -105,7 +119,6 @@ button {
             </li>
         </ul>
     </form>
-    </div>
     <script>
         // get the feedback div element so we can do something with it.
         const feedbackElement = document.getElementById('feedback');
@@ -123,4 +136,24 @@ button {
             document.body.classList.toggle('moveDown');
         });
     </script>
+    </main>
+
+    <footer>
+        <p>Aventura &copy; 2016 - Camila Costales</p>
+        <p><a target="_blank"  href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a target="_blank" href="contactus.html" >Contact Us</a></p>
+        <div class="social">
+            <a target="_blank" href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a target="_blank" href="https://twitter.com">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a target="_blank" href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
 </body>
+
+
