@@ -17,8 +17,8 @@ header {
     grid-template-columns: 150px auto;
 }
 .logo {
-    width: 75%;
-    padding-top: 5px;
+    width: 100%;
+    padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
@@ -30,6 +30,7 @@ nav a {
     font-family: var(--paragraph-font);
     font-size: 22px;
     padding: 15px;
+    padding-top: 32px;
 }
 nav {
     display: flex;
@@ -47,9 +48,10 @@ nav a:hover {
     text-decoration: none;
     font-size: 20px;
     padding: 10px 10px;
-    margin: 5px;
+    margin: 20px;
     border-radius: 2px;
     justify-content: right;
+    padding-top: 10px;
 }
 .plan:hover {
     background-color: #869f77;
@@ -86,13 +88,13 @@ nav a:hover {
     margin-top: 50px;
 }
 .find {
-    background-color: #869f77; 
+    background-color: #c09891; 
     color:white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 2px;
+    margin-top: 100px;
+    border-radius: 5px;
 }
 .find:hover {
     background-color: #c09891;
@@ -112,7 +114,8 @@ h4 {
 .button-box{
     text-align: center;  
     font-family: var(--paragraph-font);
-    font-size: 18px
+    font-size: 18px;
+    margin-top: 70px;
 }
 #contenedor{
     display: flex;
@@ -120,6 +123,7 @@ h4 {
     flex-wrap: wrap;
     margin: 40px;
     padding: 50px;
+    padding-top: 1px;
     color: #775144;
     justify-content: center;
     
@@ -145,6 +149,9 @@ h4 {
 }
 .home-tittle h2, .home-tittle h4{
     text-align: center;
+}
+.home-tittle h2{
+padding-top: 50px;
 }
 .skincare-card:hover, .hair-card:hover, .nails-card:hover, .accesorios-card:hover, .makeup-card:hover, .body-card:hover  {
     opacity: .6;
@@ -215,19 +222,19 @@ footer {
     align-items: center;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 16px;
     font-family: var(--paragraph-font);
 }    
 footer p a:hover {
     text-decoration: underline;
     font-family: var(--paragraph-font);
-    font-size: 22px;
+    font-size: 16px;
 }    
 footer a{
     background-color: #c09891;
     color: white;
     text-decoration: none; 
-    font-size: 22px;
+    font-size: 16px;
 }
 footer a:hover {
     color: white;
