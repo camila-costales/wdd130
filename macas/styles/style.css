@@ -99,6 +99,16 @@ nav a:hover {
     color: white;
     font-size: 18px
 }
+h2{
+    color: #c09891;
+    text-align: center;
+}
+h4 {
+    text-align: center;  
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    color: #c09891;
+}
 .button-box{
     text-align: center;  
     font-family: var(--paragraph-font);
@@ -110,6 +120,7 @@ nav a:hover {
     flex-wrap: wrap;
     margin: 40px;
     padding: 50px;
+    color: #775144;
     
 }
 #contenedor > div {
@@ -120,7 +131,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
-    grid-gap: 5px;
+    grid-gap: 20px;
 }
 .skincare-card {
     grid-column: 1/2;
