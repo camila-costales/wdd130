@@ -196,10 +196,9 @@ padding-top: 50px;
 }
 
 .img-box{
-        align: center;  
-        font-family: var(--paragraph-font);
-        font-size: 18px;
-        width: 100%;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    width: 100%;
 }
 #skin-msg a, #hair-msg a, #nails-msg a, #accesorios-msg a, #makeup-msg a, #body-msg a{
     text-align: center; 
