@@ -3,7 +3,7 @@
     max-width: 1600px;
     margin: 0 auto;
     --heading-font: "DM Serif Display" ,"IM Fell French Canon SC"; 
-    --paragraph-font: "raleway bold", arial, Helvetica, sans-serif;
+    --paragraph-font: "raleway", arial, Helvetica, sans-serif;
 }
 body {
     font-family: var(--paragraph-font);
