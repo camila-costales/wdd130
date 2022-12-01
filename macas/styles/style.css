@@ -3,7 +3,7 @@
     max-width: 1600px;
     margin: 0 auto;
     --heading-font: "DM Serif Display" ,"IM Fell French Canon SC"; 
-    --paragraph-font: "raleway", Helvetica, sans-serif;
+    --paragraph-font: "raleway bold", arial, Helvetica, sans-serif;
 }
 body {
     font-family: var(--paragraph-font);
@@ -26,7 +26,7 @@ header {
 }
 nav a {
     text-align: center; 
-    color: #775144;
+    color: #c09891;
     text-decoration: none;
     font-family: var(--paragraph-font);
     font-size: 22px;
@@ -47,7 +47,7 @@ nav a:hover {
 /* Dropdown Button */
 .dropbtn {
     background-color: #fde9ea;
-    color: #775144;
+    color: #c09891;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -93,7 +93,7 @@ nav a:hover {
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #c09891;}
+  .dropdown:hover .dropbtn {background-color: #f3d2d4;}
 
 
 .plan {
@@ -109,7 +109,7 @@ nav a:hover {
 }
 .plan:hover {
     background-color: #fde9ea;
-    color: #775144;
+    color: #c09891;
     font-size: 20px
 }
 #hero-img{
@@ -152,7 +152,7 @@ nav a:hover {
 }
 .find:hover {
     background-color: #fde9ea;
-    color: #775144;
+    color: #c09891;
     font-size: 18px
 }
 h2{
@@ -180,6 +180,7 @@ h4 {
     padding-top: 1px;
     color: #c09891;
     justify-content: center;
+    font-family: var(--paragraph-font);
     
 }
 #contenedor > div {
@@ -330,7 +331,7 @@ footer a:hover {
 }
 /* Page 2 */
 
-.product-t h2, {
+.product-t h2 {
     text-align: center;
 }
 .product-grid{
@@ -339,7 +340,7 @@ footer a:hover {
     grid-template-columns: (30px 70px);
     grid-gap: 30px;
     justify-items: center;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
     margin: 30px;
 }
 #slideshow-container{
@@ -375,6 +376,11 @@ footer a:hover {
 .card-msg h2 {
     text-decoration: none;
     font-size: 30px;
+}
+.text_product p{
+    color: #c09891;
+    font-family: var(--paragraph-font);
+    font-size: 20px;
 }
 .buy {
     background-color:#c09891;
