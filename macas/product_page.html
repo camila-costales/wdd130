@@ -19,59 +19,150 @@
                 <img class="logo" src="images/1.png" alt="Macas Logo">
             </a>
             <nav>
-                <a target="_blank" href="macas_index.html">Home</a>
-                <a target="_blank" href="product_page.html">Products</a>
-                <a target="_blank" href="about-us.html">About Us</a>
-                <a target="_blank" href="site-plan-macas.html">Plan Site</a>
+                <a target="_blank" href="macas_index.html">Maca's</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Categorias</button>
+                    <div class="dropdown-content">
+                      <a href="product_page.html">Skin Care</a>
+                      <a href="product_page.html">Cabello</a>
+                      <a href="product_page.html">Uñas</a>
+                      <a href="product_page.html">Cuerpo</a>
+                      <a href="product_page.html">Maquillaje</a>
+                      <a href="product_page.html">Accesorios</a>
+
+                    </div>
+                  </div>
+                <a target="_blank" href="product_page.html">Productos</a>
+                <a target="_blank" href="about-us.html">Nosotros</a>
+                <a target="_blank" class='plan' href="site-plan-macas.html">Plan Site</a>
             </nav>
         </header>
-        <section>
-            <h2>Skin Care </h2>
-            <p> Una forma de amarte es cuidando tu piel </p>    
+        <section class="product-t">
+            <h2>Ácido Salicílico </h2>  
         </section>
-        <section class="product">
-            <img class="pic_producto" src="images/p1.jpg" alt="product picture">
-            <img class="pic_producto" src="images/p2.jpg" alt="product picture">
-            <img class="pic_producto" src="images/p3.jpg" alt="product picture">
-            <img class="pic_producto" src="images/p4.jpg" alt="product picture">
-            <img class="pic_producto" src="images/p5.jpg" alt="product picture">
-            <h2>Ácido Salicílico</h2>
+
+
+        <main class="product-grid">
+
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/img1.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/img2.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <div class="numbertext"></div>
+                    <img src="images/img3.jpg" style="width:100%">
+                    </div>
+                
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                
+        
+ 
+        <section class = "text_product">
             <p>El ácido salicílico tópico alivia el acné al reducir la hinchazón y enrojecimiento y abrir los poros de la piel obstruidos, lo que permite que las espinillas se sequen. Alivia otras enfermedades de la piel al suavizar y aflojar la piel seca, escamosa o engrosada para facilitar su desprendimiento o eliminación. </p>
             <p>Ya que el ácido salicílico actúa aflojando y rompiendo las adherencias en las células de las capas externas de la piel, provoca una estimulación mediante la exfoliación de la piel y el desbloqueo de los poros. Este ácido también es lipófilo, lo que significa que puede penetrar la grasa los poros obstruidos, obteniendo como resultado una limpieza profunda del cutis. Además, reduce la secreción de sebo, lo cual puede ayudar, en gran medida, a reducir el acné, mientras actúa como un remedio que desinflama las imperfecciones. </p>
             <a target="_blank" class='buy' href="buyitnow.html">Buy It Now</a>
         </section>
-        <div> 
-            <h2>Similar Products</h2>
-            <section class="more-products">
-                <img class="card-img" src="images/p6.jpg" alt="niacinamida">
-                <h2>Niacinamida</h2>
-                <p>Controla la grasa de la piel y regula la actividad sebacea...</p>
+        </main>
+
+
+
+        <h2> More Products </h2>
+        <div class="moreproduct-grid">
+
+            
+            <section class="skincare-card">
+                <a class="img-box" target="_blank" href="product_page.html"><img class="card-img" src="images/p6.jpg" alt="1">
+                <section class="card-msg">
+                    <h2>Niacinamida</h2>
+                    <p>La niacinamida es necesaria para la función de las grasas y los azúcares en el cuerpo y para mantener las células sanas. La niacina se...</p>
+                </section>
+                </a>
             </section>
-            <section class="more-products">
-                <img class="card-img" src="images/p7.jpg" alt="vitamina">
-                <h2>Vitamina C</h2>
-                <p>Hidrata tu piel de manera profunda, sin dejar la piel grasa...</p>
+            <section class="hair-card">
+                <a class="img-box" target="_blank" href="product_page.html"><img class="card-img" src="images/p7.jpg" alt="1">
+                <section class="card-msg">
+                    <h2>Vitamina C</h2>
+                    <p>Además de ayudar a desvanecer visiblemente las decoloraciones o disminuir las líneas finas y arrugas, el uso de un sérum de vitamina C ...</p>  
+                </section>
+                </a>
             </section>
-            <section class="more-products">
-                <img class="card-img" src="images/p8.jpg" alt="peeling">
-                <h2>Peeling Solution</h2>
-                <p>LImpia y exfolia la piel de forma profunda y sin lastimarla...</p>
+            <section class="nails-card">
+                <a class="img-box" target="_blank" href="product_page.html"><img class="card-img" src="images/p8.jpg" alt="1">
+                <section class="card-msg">
+                    <h2>Peeling Solution</h2>
+                    <p>Suaviza el aspecto de la textura de la piel dando un aspecto más radiante. Los ácidos alfa hidroxilo (AHA) exfolian la capa superior ...</p>
+                </section>
+                </a>
             </section>
-        </div>
+            
+
+
     </div>
      
-        <footer>
-            <p>Aventura &copy; 2016 - Camila Costales</p>
-            <p><a target="_blank"  href="site-plan-macas.html">Site Plan</a></p>
-            <p><a target="_blank" href="aboutus.html" >About Us</a></p>
-            <p><a target="_blank" href="products.html" >Products</a></p>
-            <div class="social">
-                <a target="_blank" href="https://facebook.com">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a target="_blank" href="https://instagram.com">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
-    </body>   
+    <footer>
+        <p>Aventura &copy; 2016 - Camila Costales</p>
+        <p><a target="_blank"  href="site-plan-macas.html">Site Plan</a></p>
+        <p><a target="_blank" href="aboutus.html" >About Us</a></p>
+        <p><a target="_blank" href="products.html" >Products</a></p>
+        <div class="social">
+            <a target="_blank" href="https://facebook.com">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a target="_blank" href="https://instagram.com">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a target="_blank" href="https://whatsapp.com">
+                <img src="images/what.png" alt="what icon">
+            </a>
+        </div>
+    </footer>
+</div>
+
+
+<script>
+    // JAVA FOR THE SLIDESHOW
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
