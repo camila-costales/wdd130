@@ -403,6 +403,9 @@ footer a:hover {
 .card-img{
     width: 100%;
 }
+.card-msg h2 {
+    text-decoration: none;
+    font-size: 30px;
 
 
  /* Page 2 - Slideshow container */
