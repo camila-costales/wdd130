@@ -370,6 +370,9 @@ footer a:hover {
     margin: 0 auto;
     padding-bottom: 40px;
 }
+.makeup-card a, .skincare-card a, .body-card a, .accesorios-card a, .nails-card a, .hair-card a{
+    text-decoration: none;
+}
 .img-box {
     text-decoration: none;
 }
